@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--Icons-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4>Hello World!</h4>
+                <h1>Mateus <span>Winter</span></h1>
+                <h3>Desenvolvedor Web</h3>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="assets/img/me.png" alt="test">
+            </div>
+            <div class="about-text">
+                <h2>Sobre mim</h2>
+                <h4>Desenvolvedor Web.</h4>
+                <p>Estudante de ciência da computação e desenvolvendor web com foco em front-end.</p>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/mateus-jaques-winter-2b7959187/"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mateus.winter/"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/MateusWinter"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="main-text">
+                <h2>Habilidades</h2>
+            </div>  
+            <div class="skills-content">
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/html-css-js.png" alt="test">
+                    <h3>HTML, CSS e Javascript</h3>
+                </div>
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/vuejs-original.svg" alt="test">
+                    <h3>Vue</h3>
+                </div>  
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/nodejs-original.svg" alt="test">
+                    <h3>NodeJs</h3>
+                </div>
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/mysql-original-wordmark.svg" alt="test">
+                    <h3>MySQL</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="main-text">
+                <h2>Serviços</h2>
+            </div>  
+            <div class="services-content">
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/service2.png" alt="test">
+                    <h3>Landing Page</h3>
+                    <p>Design e desenvolvimento de uma landing page responsiva.</p>
+                </div>
+                <div class="box">
+                    <img width="150" height="150" src="assets/img/service1.png" alt="test">
+                    <h3>Sistema Web</h3>
+                    <p>Desenvolvimento de um sistema web para cumprir as nescessidades do cliente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Entre em contato</h2>
+                <h4>Solicite um orçamento!</h4>
+                <p>Entre em contato pelos meios a baixo ou preencha o formulario.</p>
+                <div class="contact-list">
+                    <li><a>mateus.mjw@gmail.com</a></li>
+                    <li><a>47 99610-2320</a></li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/mateus-jaques-winter-2b7959187/"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mateus.winter/"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/MateusWinter"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xwkzbejb" method="POST">
+                    <input name="nome" type="" placeholder="Escreva seu nome">
+                    <input name="email" type="email" placeholder="Escreva seu email">
+                    <input name="assunto" type="message" placeholder="Escreva o assunto">
+                    <textarea name="mensagem" id="" cols="40" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    <input name="envio" type="submit" value="Enviar" class="send">
+                </form>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>Desenvolvido por Mateus Winter 2022</p>
+        </div>
+
+        <a href="#" class="scroll-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+        <!--JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+
+</html>
