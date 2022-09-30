@@ -204,7 +204,7 @@ header.sticky {
 
 .services-content, .skills-content{ 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     align-items: center;
     text-align: center;
     gap: 2rem;
@@ -428,3 +428,5 @@ header.sticky {
         top: 100%;
     }
 }
+
+
